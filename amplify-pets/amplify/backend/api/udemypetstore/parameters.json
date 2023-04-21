@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "udemypetstore",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authudemypetstore",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2023-04-21T11:47:03.670Z"
+}
